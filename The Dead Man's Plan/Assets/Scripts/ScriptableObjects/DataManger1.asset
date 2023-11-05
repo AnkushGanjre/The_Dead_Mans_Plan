@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba719b83f12b3249b919c0b5dfbd917, type: 3}
+  m_Name: DataManger1
+  m_EditorClassIdentifier: 
+  chatIndex: 0
+  currentActiveCharacterNum: 101
+  chatsIntroduced:
+  - Ajay Shastri
+  - Dr. Palkar, Amrish Chopra
+  allCharacters:
+  - Ajay Shastri
+  - Amrish Chopra
+  - Dr. Palkal
+  - Veena
+  - Ajattshatru
+  allCharDP:
+  - {fileID: 21300000, guid: b06d151066a355949b67330db300f28d, type: 3}
+  - {fileID: 21300000, guid: 2038d2d8ddab51d40912034614a73005, type: 3}
+  - {fileID: 21300000, guid: b06d151066a355949b67330db300f28d, type: 3}
+  - {fileID: 21300000, guid: b06d151066a355949b67330db300f28d, type: 3}
+  allGrpChats:
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  - Dr. Palkar, Amrish Chopra
+  - Veena, Amrish Chopra
+  allGrpChatDP: []
+  nrmlChatSOList:
+  - {fileID: 11400000, guid: d8af9da571625ec40a3af85677d29cb6, type: 2}
+  - {fileID: 11400000, guid: 8e657310a7f1d6a459b499ea33bff9e2, type: 2}
+  - {fileID: 11400000, guid: 06ec5167a5835094587b89d494d1bc23, type: 2}
+  - {fileID: 11400000, guid: a93287453c345a4489ec9c96aca4532d, type: 2}
+  - {fileID: 11400000, guid: a4b9171f39f8a08418042aed26d79b40, type: 2}
+  - {fileID: 11400000, guid: b9db21134f419af40999c32ac8e24455, type: 2}
+  - {fileID: 11400000, guid: a49a3b156d3a8e64eb12b9f029b0ea20, type: 2}
+  - {fileID: 11400000, guid: 9073ed1f359c13c458406c2d81c26171, type: 2}
+  - {fileID: 11400000, guid: 899486bfb39377b439ef509a3e84e5c8, type: 2}
+  - {fileID: 11400000, guid: e29ea6d05f02d674ea1caba11d2ad990, type: 2}
+  t8ChatIntroduced: []
+  allT8Chats:
+  - Amrish, Dr.Palkar
+  - Amrish, Veena
+  - Amrish, Hawaldar
+  t8ChatSOList:
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}
+  - {fileID: 11400000, guid: 1c52108ab7b2a964689aa953c49bafcc, type: 2}
+  - {fileID: 11400000, guid: 7f33fba6fab86c340b7b4365e91badd5, type: 2}
+  - {fileID: 11400000, guid: 802cd367705d8db428249755111aea71, type: 2}
+  - {fileID: 11400000, guid: 1afaaa52a14488e4f9631e6cbb774ab8, type: 2}
+  - {fileID: 11400000, guid: 32deff1e789ce5b4994b5cc7cd32a301, type: 2}
+  - {fileID: 11400000, guid: 27cb27483b3512347aa8f5565756b300, type: 2}
+  - {fileID: 11400000, guid: a62e4b3cb35472e42b1a08879a8f4cbf, type: 2}
+  - {fileID: 11400000, guid: 8c67969767fd38c42bfb81bc5a3d9bda, type: 2}
+  - {fileID: 11400000, guid: fd899d293170f5e45a991906cabe6dd2, type: 2}
+  - {fileID: 11400000, guid: 0068d2e1dc087b44695ede28e50c3d0a, type: 2}

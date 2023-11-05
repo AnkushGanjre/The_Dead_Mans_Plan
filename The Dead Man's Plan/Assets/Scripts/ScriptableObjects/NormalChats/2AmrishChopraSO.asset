@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680bff4af45e4464ea9423be98f72fc1, type: 3}
+  m_Name: 2AmrishChopraSO
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  characterIntroduced: []
+  allCharacters: []
+  charSOList: []
+  botStatus: Offline
+  historyNum: 0
+  botChatNum: 0
+  playerOptionsNum: 0
+  chatHistory:
+  - BOTTURN
+  - Hello I'm Amrish Chopra
+  - TIMESTAMP
+  - 11:11
+  - PLAYERTURN
+  - The Kunkhar Inspector
+  - TIMESTAMP
+  - 11:12
+  - BOTTURN
+  - Yeah, now bow before me.
+  - You filthy Man
+  - Or prepare to die.
+  - Hahaha
+  - TIMESTAMP
+  - 11:13
+  chatFromBot:
+  - I'm Inspector Amrish Chopra
+  - PLAYERTURN
+  - I want to ask you about something regarding a patient.
+  - Ajay shastri
+  - Tell me everything about him
+  - PLAYERTURN
+  - What ok tell me something!!!
+  - Doctor!
+  - PLAYERTURN
+  - Mind your language Doctor
+  - I don't play nice.
+  - ENDCHAT
+  optionsToPlayer:
+  - Hello
+  - Hi Inspector
+  - I was Expecting you
+  - Ok
+  - ok
+  - oK
+  - Yeah
+  - Yeah man chill
+  - You are a Hot headed person.
